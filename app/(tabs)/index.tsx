@@ -125,7 +125,7 @@ export default function TabTwoScreen() {
           <View style={styles.modalContainer}>
             <View style={styles.modalContent}>
               <Image
-                source={{ uri: `http://192.168.0.10:5000/imagens/animais/${selectedAnimal.nome_foto}` }}
+                source={{ uri: `${url}/imagens/animais/${selectedAnimal.nome_foto}` }}
                 style={styles.modalImage}
                 resizeMode="cover"
               />
